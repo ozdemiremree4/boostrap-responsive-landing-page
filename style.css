@@ -1,0 +1,25 @@
+.my-gradient {
+    background: rgb(67,56,226);
+    background: linear-gradient(90deg, rgba(67,56,226,1) 0%, rgba(135,50,216,1) 100%);
+    
+}
+.icon-size { 
+    font-size: 4rem;
+    margin-bottom: 12px;
+}
+.icon-gradient {
+    background: rgb(67,56,226);
+    background: linear-gradient(90deg, rgba(67,56,226,1) 0%, rgba(135,50,216,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.cta
+    {
+        position: relative;
+        padding: 15rem 0;
+        background-image: url(https://source.unsplash.com/5g41N3uRPf8/1500x800);
+        background-position: center;
+        background-size: cover;
+        filter: contrast(80%);
+    }

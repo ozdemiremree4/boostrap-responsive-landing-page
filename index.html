@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>App tanıtım sitesi</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg  navbar-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">Start Bootstrap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="d-flex w-100 justify-content-end">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Download</a>
+            </li>
+
+            <button class="btn btn-primary rounded-pill " style="width: max-content;
+                    " type="submit" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <span class=" d-flex column-gap-3"> <i class="bi bi-chat-text-fill"></i> <span
+                  style="white-space: nowrap;"> Send Feedback
+                </span> </span>
+            </button>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header my-gradient">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Send Feedback</h1>
+          <button type="button" class="btn-close" style="filter: invert(1);" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form action="">
+
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingName" placeholder="name">
+              <label for="floatingPassword">Fullname</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+              <label for="floatingInput">Email address</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input type="password" class="form-control" id="floatingPhonenumber" placeholder="number">
+              <label for="floatingPassword">Phone Number</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea type="password" class="form-control" id="floatingMessage" placeholder="message"></textarea>
+              <label for="floating5">Message</label>
+
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="bg-light py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 order-2 order-lg-1 col-lg-6">
+          <h1 class="display-1">Showcase your app beautifully.</h1>
+          <p class="text-light-50" style="font-size: 22px;">Launch your mobile app landing page faster with this free,
+            open source theme from
+            Start Bootstrap!</p>
+          <div class="col-8">
+            <div class="d-flex column-gap-3 " style="height: 40px;">
+              <img src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/google-play-badge.svg"
+                alt="ios class=" class="img-fluid">
+              <img src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/app-store-badge.svg"
+                alt="anroid" class="img-fluid">
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 order-1 ">
+          <div class="d-flex h-100 justify-content-center align-items-center">
+            <img style="height: 400px; z-index:1" class="img-fluid position-relative"
+              src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/phone-screen.png" alt="telefon">
+            <div class="my-gradient rounded-circle position-absolute" style="width: 300px; height: 300px;"></div>
+            <div class="my-gradient position-absolute d-none d-lg-block"
+              style="width: 14px; height: 14px; top: 110px; right: 240px;">
+            </div>
+            <div class="my-gradient position-absolute rounded-circle d-none d-lg-block"
+              style="width: 24px; height: 24px; top: 450px; left: 870px;"></div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+  <section class="my-gradient">
+    <div class="container">
+      <div class="col-8 mx-auto text-center text-white py-5">
+        <h1>"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</h1>
+        <div style="width: 80px;" class="mx-auto mt-4">
+          <img class="img-fluid" src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/tnw-logo.svg
+      " alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <br><br><br>
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <div class="d-flex h-100 justify-content-center align-items-center">
+            <img style="height: 350px; z-index:1" class="img-fluid position-relative"
+              src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/phone-screen.png" alt="telefon">
+            <div class="my-gradient rounded-circle position-absolute" style="width: 200px; height: 200px; left:129px">
+            </div>
+            <div class="my-gradient position-absolute d-none d-lg-block"
+              style="width: 14px; height: 14px; top: 1220px; right: 1280px;">
+            </div>
+            <div class="my-gradient position-absolute rounded-circle d-none d-lg-block"
+              style="width: 24px; height: 24px; top: 870px; left:400px;"></div>
+          </div>
+        </div>
+        <div class="col-8">
+          <div class="row h-100">
+            <div class="col-6 text text-center">
+              <i class="bi-phone icon-gradient icon-size"></i>
+              <h3>Device Mockups</h3>
+              <p>Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+            </div>
+            <div class="col-6 text-center">
+              <i class="bi-camera icon-gradient icon-size"></i>
+              <h3>Flexible Use</h3>
+              <p>Put an image, video, animation, or anything else in the screen!</p>
+            </div>
+            <div class="col-6 text-center">
+              <i class="bi-gift icon-gradient icon-size"></i>
+              <h3>Free to Use</h3>
+              <p>As always, this theme is free to download and use for any purpose!</p>
+            </div>
+            <div class="col-6 text-center">
+              <i class="bi-patch-check icon-gradient icon-size"></i>
+              <h3>Open Source</h3>
+              <p>Since this theme is MIT licensed, you can use it commercially!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <br><br><br>
+  <section style="background-color: aliceblue; padding: 80px 0px; ">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-12 order-1 order-lg-1 col-lg-6">
+          <h3 class="display-3">Enter a new age of web design</h3>
+          <p class="text-light-50" style="font-size: 22px;">This section is perfect for featuring some
+            information about
+            your application, why it was built, the problem it solves, or anything else! There's plenty of space for
+            text here, so don't worry about writing too much.</p>
+        </div>
+        <div class="col-12 col-lg-6 order-2 ">
+          <div class="d-flex h-100 justify-content-center align-items-center">
+            <img style="height: 400px; z-index:1" class="img-fluid position-relative rounded-circle"
+              src="https://source.unsplash.com/u8Jn2rzYIps/900x900" alt="telefon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="cta">
+    <div class="cta-content">
+        <div class="container px-5">
+            <h2 class="text-white display-1 lh-1 mb-4">
+                Stop waiting.
+                <br />
+                Start building.
+            </h2>
+            <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age"
+                target="_blank">Download for free</a>
+        </div>
+    </div>
+</section>
+  
+  <section class="my-gradient" style="height:300px;" id="download">
+    <div class="container px-">
+      <h2 class="col-9 mx-auto text-center text-white py-5 px-5 ">Get the app now!</h2>
+      <div class="d-flex column-gap-3  justify-content-center " style="height: 55px;">
+        <img src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/google-play-badge.svg" alt="ios">
+        <img src="https://demo.onlyjs.com/exercises/bootstrap-mobile-app/assets/img/app-store-badge.svg" alt="anroid">
+      </div>
+    </div>
+  </section>
+ 
+
+  <!-- Footer-->
+  <footer class="bg-black text-center py-5">
+    <div class="container px-5">
+      <div class="text-white-50 small">
+        <div class="mb-2">&copy; Copyright Emre Özdemir Your Website 2023 . All Rights Reserved.</div>
+        <a href="#!">Privacy</a>
+        <span class="mx-1 text-white-50">&middot;</span>
+        <a href="#!">Terms</a>
+        <span class="mx-1">&middot;</span>
+        <a href="#!">FAQ</a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
